@@ -1,0 +1,12 @@
+//this is the sample sql part of AMBULANCE MANAGEMENT SYSTEM using oracle express edition
+
+create table Patient1(
+pa_name varchar(10),
+pa_gender char(6),
+pa_location char(20),
+pa_mobile varchar(10)
+);
+insert into Patient1 values('pooja','female','manglore','987487847');
+insert into Patient1 values('dinesh','male','mysore','949849849');
+insert into Patient1 values('prajwal','male','surthkal','989394933');
+select * from Patient1;
